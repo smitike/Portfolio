@@ -6,26 +6,27 @@ import { getImageUrl } from "../../utils";
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      {/* <h2 className={styles.title}>About</h2> */}
       <div className={styles.content}>
-        <img
+        {/* <img
           src={getImageUrl("about/laptop.jpg")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
-        />
+        /> */}
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            {/* <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" /> */}
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
-              </p>
+              <h2>AI-Empowered Cybersecurity REU</h2>
+              <p>NSF REU Intern</p>
+                <p>
+                    I'm a frontend developer with experience in building responsive
+                    and optimized sites
+                </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img src={getImageUrl("history/ucsc.png")} alt="Server icon" style={{ width: "60px", height: "60px" }}/>
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
@@ -35,7 +36,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            {/* <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" /> */}
             <div className={styles.aboutItemText}>
               <h3>UI Designer</h3>
               <p>

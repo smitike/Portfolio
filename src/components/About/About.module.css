@@ -40,7 +40,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 60px;
   list-style: none;
   padding: 25px;
   background-image: linear-gradient(
@@ -50,7 +50,8 @@
   );
   background-size: 0 100%;
   background-repeat: no-repeat;
-  transition: 0.4s;
+  transition: 0.7s;
+  gap: 10px
 }
 
 .aboutItem:hover {
@@ -58,7 +59,7 @@
 }
 
 .aboutItem h3 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
 }
 
