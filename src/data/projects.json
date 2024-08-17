@@ -1,26 +1,16 @@
 [
     {
-      "title": "Project A",
+      "title": "Weather App",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "A weather-check app using ReactJS and Firebase, allowing users to track weather in favorite locations globally.",
+      "skills": ["ReactJS", "Firebase", "JavaScript", "CSS"],
+      "source": "https://github.com/smitike/weather_app"
     },
     {
-      "title": "Project B",
+      "title": "Sport App",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "A mobile app to find nearby soccer games using Google Maps API for real-time location tracking.",
+      "skills": ["Flutter", "Dart", "Firebase", "Kotlin", "Swift"],
+      "source": "https://github.com/smitike/sport_app"
     }
   ]

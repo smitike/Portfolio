@@ -91,3 +91,35 @@
     padding-right: 0;
   }
 }
+.experienceItem {
+  margin-bottom: 20px;
+}
+
+.experienceItemh3 {
+  font-size: 10%; /* Make the title larger */margin-bottom: 5px;
+}
+
+.experienceItemp.position {
+  font-size: 1.2em; /* Make the position smaller */margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.experienceItema {
+  font-size: 1em; /* Make the link smaller */color: #6366f1; /* Ensure the link has a distinct color */display: block;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.experienceItema:hover {
+  text-decoration: underline;
+}
+
+.experienceItemul {
+  margin-top: 10px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.experienceItemulli {
+  margin-bottom: 5px;
+}
