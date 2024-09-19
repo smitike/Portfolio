@@ -4,6 +4,8 @@ import styles from "./Projects.module.css";
 
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";
+import "../../App.module.css";
+
 
 export const Projects = () => {
   return (

@@ -1,61 +1,56 @@
-@import "../../vars.css";
-
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
+  align-items: flex-start;
   border-radius: 10px;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
+  box-shadow: 0 20px 20px 0 #18509f;
   padding: 18px 24px;
   max-width: 345px;
-}
-
-.image {
-  margin-bottom: 26px;
+  margin-bottom: 20px;
+  background-color: rgba(88, 99, 125, 0.875);
 }
 
 .title {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
+  margin-bottom: 14px;
 }
 
-.description {
-  margin-top: 6px;
-  font-size: 25px;
-  font-weight: 400;
-}
-
-.skills {
+.descriptions {
   width: 100%;
-  margin-top: 14px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 6px;
-  list-style: none;
+  list-style: disc; /* Bullet points */
+  margin: 10px 0;
+  padding-left: 20px;
 }
 
-.skill {
-  font-size: 25px;
-  font-weight: 400;
-  border-radius: 100px;
-  background: var(--color-dark);
-  padding: 2px 22px;
+.descriptionItem {
+  font-size: 18px;
+  margin-bottom: 5px; /* Add space between bullet points */
+}
+
+.keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.keyword {
+  background-color: #a9adc7;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .links {
-  width: 100%;
-  margin-top: 26px;
-  display: flex;
-  justify-content: space-around;
+  margin-top: 20px;
 }
 
 .link {
   text-decoration: none;
-  color: var(--color-text);
-  font-size: 30px;
+  color: #fff;
+  background-color: #4a90e2;
+  padding: 8px 15px;
+  border-radius: 8px;
   font-weight: 600;
-  border-radius: 100px;
-  background: var(--color-primary);
-  padding: 1px 22px;
 }

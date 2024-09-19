@@ -1,16 +1,34 @@
 [
-    {
-      "title": "Weather App",
-      "imageSrc": "projects/project.png",
-      "description": "A weather-check app using ReactJS and Firebase, allowing users to track weather in favorite locations globally.",
-      "skills": ["ReactJS", "Firebase", "JavaScript", "CSS"],
-      "source": "https://github.com/smitike/weather_app"
-    },
-    {
-      "title": "Sport App",
-      "imageSrc": "projects/project.png",
-      "description": "A mobile app to find nearby soccer games using Google Maps API for real-time location tracking.",
-      "skills": ["Flutter", "Dart", "Firebase", "Kotlin", "Swift"],
-      "source": "https://github.com/smitike/sport_app"
-    }
-  ]
+  {
+    "title": "Study Group Match Web Application",
+    "imageSrc": "projects/project.png",
+    "description": [
+      "Designed and developed a full-stack web application that allows university students to create and join study sessions based on their classes and school, following Agile development practices.",
+      "Implemented user authentication, profile management, and session management features using React for the frontend and Node.js/Express for the backend, employing RESTful API design principles.",
+      "Utilized MySQL for data storage, optimizing database queries for efficient session retrieval and management."
+    ],
+    "skills": ["ReactJS", "Node.js", "MySQL", "Express", "Netlify"],
+    "source": "https://github.com/smitike/study-match"
+  },
+  {
+    "title": "Weather App",
+    "imageSrc": "projects/project.png",
+    "description": [
+      "Built a weather-check app using ReactJS and Firebase.",
+      "Allows users to track weather in favorite locations globally.",
+      "Integrates with weather API for real-time updates."
+    ],
+    "skills": ["ReactJS", "Firebase", "JavaScript", "CSS"],
+    "source": "https://github.com/smitike/weather_app"
+  },
+  {
+    "title": "Sport App",
+    "imageSrc": "projects/project.png",
+    "description": [
+      "A mobile app to find nearby soccer games.",
+      "Uses Google Maps API for real-time location tracking."
+    ],
+    "skills": ["Flutter", "Dart", "Firebase", "Kotlin", "Swift"],
+    "source": "https://github.com/smitike/sport_app"
+  }
+]

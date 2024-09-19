@@ -1,15 +1,14 @@
-@import "../../vars.css";
-
+/* contact.module.css */
 .container {
-  color: var(--color-text);
+  /* color: var(--color-text); */
   margin-top: 120px;
-  background-color: var(--color-secondary);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100vw;
+  /* width: 100vw; */
   padding: 58px 10%;
   gap: 10px;
+  background-color: rgba(226, 219, 210, 0.447);
 }
 
 .text h2 {

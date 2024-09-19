@@ -1,111 +1,109 @@
-@import "../../vars.css";
-
 .container {
-  position: relative;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
-  z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  align-items: flex-start;
+  padding: 40px;
+  margin-top: 30px;
+}
+
+.heroSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  color: var(--color-text);
-  z-index: 1;
+  margin-bottom: 20px;
 }
 
 .title {
-  font-size: 72px;
-  font-weight: 900;
-  margin-bottom: 33px;
-  font-family: var(--font-roboto);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .description {
-  font-size: 30px;
-  font-family: var(--font-roboto);
-  margin-bottom: 52px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
-.contactBtn {
-  text-decoration: none;
-  background-color: var(--color-primary);
-  color: var(--color-text);
-  border-radius: 100px;
-  font-size: 30px;
-  font-weight: 600;
-  padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+.links {
+  display: flex;
+  gap: 15px;
+}
+
+.links a img {
+  width: 30px;
+  height: 30px;
 }
 
 .heroImg {
-  width: 20%;
-  z-index: 1;
-
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
 }
 
-@keyframes floating {
+.skillsSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.skillsTitle {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skillImageContainer {
+  width: 80px;
+  height: 80px;
+  /* background-color: #eee;  */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skillImageContainer img {
+  width: 60%;
+}
+
+.skill p {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Add this to your CSS */
+@keyframes bounceSlow {
   0% {
-    transform: translate(0, 0px);
+    transform: translateY(0); /* Start at the original position */
   }
   50% {
-    transform: translate(0, 10px);
+    transform: translateY(-15px); /* Move up */
   }
   100% {
-    transform: translate(0, -0px);
+    transform: translateY(0); /* Return to the original position */
   }
 }
 
-.topBlur {
-  position: absolute;
-  width: 50vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 350px;
-  top: -128px;
-  left: -10vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
+.skillImageContainer img {
+  width: 80%;
+  animation: bounceSlow 3s ease-in-out infinite; /* Slow and continuous bounce */
 }
 
-.bottomBlur {
-  position: absolute;
-  width: 70vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 250px;
-  top: 246px;
-  right: -25vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
-}
-
-@media screen and (max-width: 830px) {
-  .container {
-    flex-direction: column-reverse;
-  }
-
-  .content {
-    align-items: center;
-  }
-}
