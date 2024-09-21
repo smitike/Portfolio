@@ -27,7 +27,12 @@
 .aboutItemText h3 {
   font-size: 1.5em; /* Adjust font size for title */
   margin-bottom: 5px;
-  color: rgba(31, 25, 54, 0.814);
+  color: rgb(215, 190, 190);
+}
+
+.aboutItemText p {
+  font-size: 1em;
+  /* color:blue; */
 }
 
 .container h2 {

@@ -38,7 +38,7 @@ export const Hero = () => {
                 <div className={styles.skillImageContainer}>
                   <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
                 </div>
-                <p>{skill.title}</p>
+                {/* <p>{skill.title}</p> */}
               </div>
             );
           })}

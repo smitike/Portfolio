@@ -1,7 +1,8 @@
 [
     {
       "title": "Python",
-      "imageSrc": "history/python.png"
+      "imageSrc": "history/python.png",
+      "proficiency": 90
     },
     {
       "title": "C/C++",
@@ -33,6 +34,14 @@
     },
     {
       "title": "JavaScript",
-      "imageSrc": "history/javascript.png"
+      "imageSrc": "history/js.png"
+    },
+    {
+      "title": "MySQL",
+      "imageSrc": "history/mysql.png"
+    },
+    {
+      "title": "Node JS",
+      "imageSrc": "history/nodejs.png"
     }
   ]
